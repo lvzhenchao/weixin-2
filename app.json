@@ -10,5 +10,19 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#00ccff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "./images/ing.png",
+      "selectedIconPath": "./images/ing-active.png",
+      "text": "正在上映"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "./images/coming.png",
+      "selectedIconPath": "./images/coming.png",
+      "text": "即将上映"
+    }]
+  }
 }
