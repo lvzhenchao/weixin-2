@@ -1,0 +1,17 @@
+<!--pages/detail/detail.wxml-->
+<view class="content">
+    <view class="content-left">
+      <image src="../../images/1.jpg" mode=""/>
+    </view>
+    <view class="content-right">
+      <view><text>我的战争 <text class="year">2016</text> </text></view>
+      <view><text>评分：<text class="score">8.8</text> </text></view>
+      <view><text>导演：鹏顺</text></view>
+      <view><text>主演：王珞丹、刘烨</text></view>
+    </view>
+  </view>
+  <view class="des">
+    <view>剧情简介：</view>
+    <view>《我的战争》是由中国电影股份有限公司出品的战争片，由彭顺执导，刘恒编剧，刘烨、王珞丹、黄志忠、杨祐宁、叶青等领衔主演。该片于2016年9月15日在中国大陆上映。影片改编自巴金的小说《团圆》，讲述了一群平凡又伟大的年轻人为了保卫国家毅然决然远赴他乡，在残酷的战场上所发生的那些关于爱情、友情、亲情的传奇故事。</view>
+  </view>
+  

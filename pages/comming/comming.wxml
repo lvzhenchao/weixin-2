@@ -1,10 +1,10 @@
 <scroll-view>
-  <view bindtap= "detail" class="content">
+  <view class="content">
     <view class="content-left">
       <image src="../../images/1.jpg" mode=""/>
     </view>
     <view class="content-right">
-      <view><text>我的战争 <text class="year">2016</text> </text></view>
+      <view><text>将要上映 <text class="year">2016</text> </text></view>
       <view><text>评分：<text class="score">8.8</text> </text></view>
       <view><text>导演：鹏顺</text></view>
       <view><text>主演：王珞丹、刘烨</text></view>
@@ -16,7 +16,7 @@
       <image src="../../images/1.jpg" mode=""/>
     </view>
     <view class="content-right">
-      <view><text>我的战争 <text class="year">2016</text> </text></view>
+      <view><text>将要上映 <text class="year">2016</text> </text></view>
       <view><text>评分：<text class="score">8.8</text> </text></view>
       <view><text>导演：鹏顺</text></view>
       <view><text>主演：王珞丹、刘烨</text></view>
@@ -28,7 +28,7 @@
       <image src="../../images/1.jpg" mode=""/>
     </view>
     <view class="content-right">
-      <view><text>我的战争 <text class="year">2016</text> </text></view>
+      <view><text>将要上映 <text class="year">2016</text> </text></view>
       <view><text>评分：<text class="score">8.8</text> </text></view>
       <view><text>导演：鹏顺</text></view>
       <view><text>主演：王珞丹、刘烨</text></view>

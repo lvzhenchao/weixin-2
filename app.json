@@ -1,28 +1,33 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/comming/comming",
+    "pages/detail/detail"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
     "selectedColor": "#00ccff",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "iconPath": "./images/ing.png",
-      "selectedIconPath": "./images/ing-active.png",
-      "text": "正在上映"
-    }, {
-      "pagePath": "pages/logs/logs",
-      "iconPath": "./images/coming.png",
-      "selectedIconPath": "./images/coming.png",
-      "text": "即将上映"
-    }]
-  }
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./images/ing.png",
+        "selectedIconPath": "./images/ing-active.png",
+        "text": "正在上映"
+      },
+      {
+        "pagePath": "pages/comming/comming",
+        "iconPath": "./images/coming.png",
+        "selectedIconPath": "./images/coming-active.png",
+        "text": "即将上映"
+      }
+    ]
+  },
+  "debug": true
 }
