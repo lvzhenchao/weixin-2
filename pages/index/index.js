@@ -63,5 +63,12 @@ Page({
     wx.navigateTo({
       url: '../detail/detail?id='+res.currentTarget.dataset.id+'&title='+res.currentTarget.dataset.title,
     })
+  },
+  upper: function(){
+    console.log('upper')
+  },
+  lower: function(){
+    console.log('lower')
+    console.log('页码加一')
   }
 })
