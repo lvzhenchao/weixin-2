@@ -70,5 +70,16 @@ Page({
   lower: function(){
     console.log('lower')
     console.log('页码加一')
+
+    var thst = this;
+    // wx.request({
+    //   url: 'url',
+    //   success: function(res){
+    //     films = that.data.films
+    //     for(){
+    //       films.push(res.data)
+    //     }
+    //     that.setData({films:filmes})
+    // })
   }
 })
